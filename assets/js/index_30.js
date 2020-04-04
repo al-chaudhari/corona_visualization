@@ -3,198 +3,10 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/service-worker.js");
   });
 }
+
 let el = document.getElementById("world");
 let globel = {};
 
-let data = {
-  Afghanistan: "AF",
-  Angola: "AO",
-  Albania: "AL",
-  "United Arab Emirates": "AE",
-  Argentina: "AR",
-  Armenia: "AM",
-  Australia: "AU",
-  Austria: "AT",
-  Azerbaijan: "AZ",
-  Belgium: "BE",
-  Benin: "BJ",
-  "Burkina Faso": "BF",
-  Bangladesh: "BD",
-  Bulgaria: "BG",
-  "Bosnia and Herzegovina": "BA",
-  Belarus: "BY",
-  Belize: "BZ",
-  Bolivia: "BO",
-  Brazil: "BR",
-  Brunei: "BN",
-  Bhutan: "BT",
-  "Central African Republic": "CF",
-  Canada: "CA",
-  Switzerland: "CH",
-  Chile: "CL",
-  China: "CN",
-  "Côte d'Ivoire": "CI",
-  Cameroon: "CM",
-  "Democratic Republic of the Congo": "CD",
-  "Republic of the Congo": "CG",
-  Colombia: "CO",
-  "Costa Rica": "CR",
-  Cuba: "CU",
-  Czechia: "CZ",
-  Germany: "DE",
-  Djibouti: "DJ",
-  Denmark: "DK",
-  "Dominican Republic": "DO",
-  Algeria: "DZ",
-  Ecuador: "EC",
-  Egypt: "EG",
-  Eritrea: "ER",
-  Estonia: "EE",
-  Ethiopia: "ET",
-  Finland: "FI",
-  Fiji: "FJ",
-  Gabon: "GA",
-  "United Kingdom": "GB",
-  Georgia: "GE",
-  Ghana: "GH",
-  Guinea: "GN",
-  "The Gambia": "GM",
-  "Papua New Guinea": "GW",
-  "Equatorial Guinea": "GQ",
-  Greece: "GR",
-  Greenland: "GL",
-  Guatemala: "GT",
-  Guyana: "GY",
-  Honduras: "HN",
-  Croatia: "HR",
-  Haiti: "HT",
-  Hungary: "HU",
-  Indonesia: "ID",
-  India: "IN",
-  Ireland: "IE",
-  Iran: "IR",
-  Iraq: "IQ",
-  Iceland: "IS",
-  Israel: "IL",
-  Italy: "IT",
-  Jamaica: "JM",
-  Jordan: "JO",
-  Japan: "JP",
-  Kazakhstan: "KZ",
-  Kenya: "KE",
-  Kyrgyzstan: "KG",
-  Cambodia: "KH",
-  "South Korea": "KR",
-  Kuwait: "KW",
-  Laos: "LA",
-  Lebanon: "LB",
-  Liberia: "LR",
-  Libya: "LY",
-  "Sri Lanka": "LK",
-  Lithuania: "LT",
-  Luxembourg: "LU",
-  Latvia: "LV",
-  Morocco: "MA",
-  Moldova: "MD",
-  Madagascar: "MG",
-  Mexico: "MX",
-  "North Macedonia": "MK",
-  Mali: "ML",
-  "Myanmar (Burma)": "MM",
-  Montenegro: "ME",
-  Mongolia: "MN",
-  Mozambique: "MZ",
-  Mauritania: "MR",
-  Malaysia: "MY",
-  Namibia: "NA",
-  Niger: "NE",
-  Nigeria: "NG",
-  Nicaragua: "NI",
-  Netherlands: "NL",
-  Norway: "NO",
-  Nepal: "NP",
-  "New Zealand": "NZ",
-  Oman: "OM",
-  Pakistan: "PK",
-  Panama: "PA",
-  Peru: "PE",
-  Philippines: "PH",
-  "Papua New Guinea": "PG",
-  Poland: "PL",
-  Portugal: "PT",
-  Paraguay: "PY",
-  Qatar: "QA",
-  Romania: "RO",
-  Russia: "RU",
-  Rwanda: "RW",
-  "Saudi Arabia": "SA",
-  Sudan: "SD",
-  Senegal: "SN",
-  "El Salvador": "SV",
-  Serbia: "RS",
-  Suriname: "SR",
-  Slovakia: "SK",
-  Slovenia: "SI",
-  Sweden: "SE",
-  Syria: "SY",
-  Chad: "TD",
-  Togo: "TG",
-  Thailand: "TH",
-  "Timor-Leste": "TL",
-  Tunisia: "TN",
-  Turkey: "TR",
-  Tanzania: "TZ",
-  Uganda: "UG",
-  Ukraine: "UA",
-  Uruguay: "UY",
-  "United States": "US",
-  Uzbekistan: "UZ",
-  Venezuela: "VE",
-  Vietnam: "VN",
-  "South Africa": "ZA",
-  Zambia: "ZM",
-  Zimbabwe: "ZW",
-  Somalia: "SO",
-  "French Guiana": "GF",
-  France: "FR",
-  Spain: "ES",
-  Aruba: "AW",
-  Anguilla: "AI",
-  Andorra: "AD",
-  "Antigua and Barbuda": "AG",
-  "The Bahamas": "BS",
-  Bermuda: "BM",
-  Barbados: "BB",
-  "Cayman Islands": "KY",
-  Dominica: "DM",
-  Grenada: "GD",
-  "Saint Kitts and Nevis": "KN",
-  "Saint Lucia": "LC",
-  Liechtenstein: "LI",
-  Maldives: "MV",
-  Malta: "MT",
-  Montserrat: "MS",
-  Mauritius: "MU",
-  "New Caledonia": "NC",
-  "Puerto Rico": "PR",
-  "French Polynesia": "PF",
-  Singapore: "SG",
-  "Sint Maarten": "SX",
-  Seychelles: "SC",
-  "Turks and Caicos Islands": "TC",
-  "Trinidad and Tobago": "TT",
-  "Saint Vincent and the Grenadines": "VC",
-  "British Virgin Islands": "VG",
-  // "Virgin Islands": "VI",
-  Cyprus: "CY",
-  Turkmenistan: "TM",
-  // Tajikistan: "TJ",
-  // Reunion: "RE",
-  Mayotte: "YT",
-  Martinique: "MQ",
-  Guadeloupe: "GP",
-  Curaçao: "CW"
-};
 
 function worldShow(data) {
   document.getElementById("world_total").innerText = data.confirmedcase;
@@ -202,41 +14,27 @@ function worldShow(data) {
   document.getElementById("world_recovered").innerText = data.recovered;
 }
 
-function colorDoc(id, color) {
-  document.getElementById(id).style.fill = color;
-}
-
 function colorData(dta) {
-  for (let i of Object.keys(data)) {
-
+  for (let i of Object.keys(dta)) {
     if (dta[i]) {
       peoples = parseInt(dta[i].confirmedcase);
       if (!dta[i]) {
         continue;
       }
-      if (peoples < 10) {
-        colorDoc(data[i], "rgb(255, 199, 226)");
-      } else if (peoples < 99) {
-        colorDoc(data[i], "rgb(219, 83, 149)");
-      } else if (peoples < 999) {
-        colorDoc(data[i], "rgb(181, 43, 110)");
-      } else if (peoples < 9999) {
-        colorDoc(data[i], "rgb(145, 7, 74)");
-      } else if (peoples > 10000) {
-        colorDoc(data[i], "rgb(59, 1, 29)");
-      } else {
-      }
+      cdoc(peoples, i);
     }
   }
 }
 
-function giveNamefrom(id) {
-  for (let i of Object.keys(data)) {
-    if (data[i] == id) {
-      return i;
+function cdoc(val, id) {
+  for(let i of globel.data.profiles)
+  {
+    if(val < i.value)
+    {
+      document.getElementById(id).style.fill = i.color;
+      return;
     }
   }
-  return false;
 }
 
 function findSpace(ev) {
@@ -353,51 +151,44 @@ function showData(ctry, data, ev) {
 }
 
 window.onload = function() {
-  fetch("assets/data/result_world.json").then(doc =>
-    doc.json().then(doc => worldShow(doc))
-  );
-  fetch("assets/data/result.json").then(doc => {
+  fetch("assets/data/world.json").then(doc => {
     _ = doc.json().then(doc => {
       document.getElementById("wait").style.display = "none";
       let data = doc;
       globel.data = data;
-      colorData(globel.data);
-      tableData(globel.data);
+      worldShow(data.total);
+      colorData(globel.data.detached);
+      tableData(globel.data.detached);
     });
   });
 };
 
 el.onmousemove = ev => {
-  el = giveNamefrom(ev.toElement.id);
-  if (!el) {
-    return;
-  }
-  if (!globel.data) {
-    alert("data not available");
+  el = ev.toElement.id;
+  let data = globel.data.detached;
+  if (!data[el]) {
     return;
   }
   if (globel.data && el) {
-    showData(el, globel.data[el], ev);
+    showData(data[el].country, data[el], ev);
   }
 };
 
-function filterSearch(data) {
-  let dta = globel.data;
-  _storage = {};
-  data.forEach(el => {
-    _storage[el + ""] = dta[el + ""];
-  });
-  return _storage;
-}
 
 let searchbar = document.getElementById("searchbar");
+document.querySelector('div.table-data').onmouseenter = itshidden;
 searchbar.onkeyup = function(ev) {
   let val = ev.target.value.toLowerCase();
-  let dts = Object.keys(globel.data).filter(vals =>
-    vals.toLowerCase().includes(val)
-  );
-  document.getElementById("table-body").innerHTML = "";
-  tableData(filterSearch(dts));
+  itshidden()
+  let k = document.getElementById('table-body');
+  for(let el of k.children)
+  {
+    if(!el.children[0].innerText.toLowerCase().includes(val)){
+      el.classList = ["no-display"]
+    }else {
+      el.classList = ["ok-display"]
+    }
+  }
 };
 
 function itshidden() {

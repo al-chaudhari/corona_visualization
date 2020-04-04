@@ -93,3 +93,22 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+.no-display {
+  display: none;
+}
+
+.ok-display {
+  display: table-row;
+}
+
+@media screen and (max-width: 40.0rem) {
+  body {
+    width: 100%;
+  }
+  table {
+
+    max-width: 100%;
+    overflow: scroll;
+  }
+}
