@@ -1,0 +1,95 @@
+* { padding: 0px; margin: 0px; }
+div.table-wrapper, th { position: sticky; top: 0; }
+.green { color: green; font-weight: 800; }
+.slight-left { text-decoration: underline; display: inline-block; margin-left: 10px; color: blue; font-weight: 600; }
+.header { padding: 10px; line-height: 0}
+.logo-website { display: inline-block; margin-right: 10px; }
+.live { padding: 2px; background-color: #822525; color: white; border-radius: 5px; font-weight: 500; }
+html, body { width: 100%; height: 100%; }
+#world, div.table-data, div.table-wrapper { width: 100%; }
+
+#world svg {
+  width: 100%;
+  height: 300px;
+}
+
+#world svg path:hover {
+  stroke-width: 3px;
+}
+
+div.table-wrapper {
+  overflow: scroll;
+}
+
+div.table-data .input {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+div.table-data .input input {
+  text-align: center;
+}
+.center-text {
+  text-align: center;
+}
+th,
+td {
+  text-align: center !important;
+}
+
+table,
+thead {
+  background-color: white;
+  z-index: 99;
+}
+
+thead,
+th {
+  background-color: white;
+  opacity: 1;
+}
+
+.data-show {
+  visibility: hidden;
+  position: fixed;
+  background: white;
+  opacity: 1;
+  top: 40px;
+  border-radius: 5px;
+  padding: 2px;
+  width: 150px;
+  height: 200px;
+}
+
+@media (min-width: 40rem) {
+  #world svg {
+    height: 100%;
+  }
+}
+
+.red {
+  color: #821313;
+  font-weight: 600;
+}
+
+.name {
+  color: green;
+}
+
+.wait {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.wait img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}

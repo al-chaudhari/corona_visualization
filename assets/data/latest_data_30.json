@@ -1,0 +1,1423 @@
+[
+  {
+    "country": "China",
+    "confirmedcases": 82447,
+    "newcases": 106,
+    "death": 3310,
+    "newdeath": 4
+  },
+  {
+    "country": "Republic of Korea",
+    "confirmedcases": 9661,
+    "newcases": 78,
+    "death": 158,
+    "newdeath": 6
+  },
+  {
+    "country": "Australia",
+    "confirmedcases": 3966,
+    "newcases": 0,
+    "death": 16,
+    "newdeath": 0
+  },
+  {
+    "country": "Malaysia",
+    "confirmedcases": 2470,
+    "newcases": 150,
+    "death": 34,
+    "newdeath": 7
+  },
+  {
+    "country": "Japan",
+    "confirmedcases": 1866,
+    "newcases": 173,
+    "death": 54,
+    "newdeath": 2
+  },
+  {
+    "country": "Philippines",
+    "confirmedcases": 1418,
+    "newcases": 343,
+    "death": 71,
+    "newdeath": 3
+  },
+  {
+    "country": "Singapore",
+    "confirmedcases": 844,
+    "newcases": 42,
+    "death": 3,
+    "newdeath": 1
+  },
+  {
+    "country": "New Zealand",
+    "confirmedcases": 552,
+    "newcases": 76,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Viet Nam",
+    "confirmedcases": 188,
+    "newcases": 9,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Brunei Darussalam",
+    "confirmedcases": 126,
+    "newcases": 6,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Cambodia",
+    "confirmedcases": 103,
+    "newcases": 1,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Mongolia",
+    "confirmedcases": 12,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Lao People's Democratic Republic",
+    "confirmedcases": 8,
+    "newcases": 2,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Fiji",
+    "confirmedcases": 5,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Papua New Guinea",
+    "confirmedcases": 1,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Guam",
+    "confirmedcases": 56,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "French Polynesia",
+    "confirmedcases": 35,
+    "newcases": 1,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "New Caledonia",
+    "confirmedcases": 15,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Northern Mariana Islands (Commonwealth ofthe)",
+    "confirmedcases": 2,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Italy",
+    "confirmedcases": 97689,
+    "newcases": 5217,
+    "death": 10781,
+    "newdeath": 758
+  },
+  {
+    "country": "Spain",
+    "confirmedcases": 78797,
+    "newcases": 6549,
+    "death": 6528,
+    "newdeath": 838
+  },
+  {
+    "country": "Germany",
+    "confirmedcases": 57298,
+    "newcases": 4751,
+    "death": 455,
+    "newdeath": 66
+  },
+  {
+    "country": "France",
+    "confirmedcases": 39642,
+    "newcases": 2497,
+    "death": 2602,
+    "newdeath": 291
+  },
+  {
+    "country": "The United Kingdom",
+    "confirmedcases": 19526,
+    "newcases": 2433,
+    "death": 1228,
+    "newdeath": 209
+  },
+  {
+    "country": "Switzerland",
+    "confirmedcases": 14274,
+    "newcases": 1122,
+    "death": 257,
+    "newdeath": 22
+  },
+  {
+    "country": "Netherlands",
+    "confirmedcases": 10866,
+    "newcases": 1104,
+    "death": 771,
+    "newdeath": 132
+  },
+  {
+    "country": "Belgium",
+    "confirmedcases": 10836,
+    "newcases": 1702,
+    "death": 431,
+    "newdeath": 78
+  },
+  {
+    "country": "Turkey",
+    "confirmedcases": 9271,
+    "newcases": 1869,
+    "death": 131,
+    "newdeath": 23
+  },
+  {
+    "country": "Austria",
+    "confirmedcases": 8813,
+    "newcases": 522,
+    "death": 86,
+    "newdeath": 18
+  },
+  {
+    "country": "Portugal",
+    "confirmedcases": 5962,
+    "newcases": 792,
+    "death": 119,
+    "newdeath": 19
+  },
+  {
+    "country": "Israel",
+    "confirmedcases": 4247,
+    "newcases": 382,
+    "death": 15,
+    "newdeath": 0
+  },
+  {
+    "country": "Norway",
+    "confirmedcases": 4102,
+    "newcases": 257,
+    "death": 22,
+    "newdeath": 2
+  },
+  {
+    "country": "Sweden",
+    "confirmedcases": 3700,
+    "newcases": 253,
+    "death": 110,
+    "newdeath": 8
+  },
+  {
+    "country": "Czechia",
+    "confirmedcases": 2829,
+    "newcases": 166,
+    "death": 16,
+    "newdeath": 5
+  },
+  {
+    "country": "Ireland",
+    "confirmedcases": 2615,
+    "newcases": 200,
+    "death": 46,
+    "newdeath": 10
+  },
+  {
+    "country": "Denmark",
+    "confirmedcases": 2395,
+    "newcases": 194,
+    "death": 72,
+    "newdeath": 7
+  },
+  {
+    "country": "Luxembourg",
+    "confirmedcases": 1950,
+    "newcases": 119,
+    "death": 21,
+    "newdeath": 3
+  },
+  {
+    "country": "Poland",
+    "confirmedcases": 1862,
+    "newcases": 224,
+    "death": 22,
+    "newdeath": 4
+  },
+  {
+    "country": "Romania",
+    "confirmedcases": 1760,
+    "newcases": 308,
+    "death": 40,
+    "newdeath": 11
+  },
+  {
+    "country": "Russian Federation",
+    "confirmedcases": 1534,
+    "newcases": 0,
+    "death": 10,
+    "newdeath": 2
+  },
+  {
+    "country": "Finland",
+    "confirmedcases": 1218,
+    "newcases": 0,
+    "death": 11,
+    "newdeath": 2
+  },
+  {
+    "country": "Greece",
+    "confirmedcases": 1156,
+    "newcases": 95,
+    "death": 38,
+    "newdeath": 6
+  },
+  {
+    "country": "Iceland",
+    "confirmedcases": 1020,
+    "newcases": 57,
+    "death": 2,
+    "newdeath": 0
+  },
+  {
+    "country": "Serbia",
+    "confirmedcases": 741,
+    "newcases": 82,
+    "death": 13,
+    "newdeath": 3
+  },
+  {
+    "country": "Slovenia",
+    "confirmedcases": 730,
+    "newcases": 39,
+    "death": 11,
+    "newdeath": 2
+  },
+  {
+    "country": "Croatia",
+    "confirmedcases": 713,
+    "newcases": 56,
+    "death": 6,
+    "newdeath": 1
+  },
+  {
+    "country": "Estonia",
+    "confirmedcases": 679,
+    "newcases": 39,
+    "death": 3,
+    "newdeath": 2
+  },
+  {
+    "country": "Lithuania",
+    "confirmedcases": 484,
+    "newcases": 90,
+    "death": 7,
+    "newdeath": 0
+  },
+  {
+    "country": "Armenia",
+    "confirmedcases": 482,
+    "newcases": 58,
+    "death": 3,
+    "newdeath": 0
+  },
+  {
+    "country": "Ukraine",
+    "confirmedcases": 480,
+    "newcases": 62,
+    "death": 11,
+    "newdeath": 2
+  },
+  {
+    "country": "Hungary",
+    "confirmedcases": 447,
+    "newcases": 39,
+    "death": 15,
+    "newdeath": 2
+  },
+  {
+    "country": "Latvia",
+    "confirmedcases": 376,
+    "newcases": 71,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Bulgaria",
+    "confirmedcases": 346,
+    "newcases": 15,
+    "death": 8,
+    "newdeath": 1
+  },
+  {
+    "country": "Andorra",
+    "confirmedcases": 341,
+    "newcases": 20,
+    "death": 6,
+    "newdeath": 2
+  },
+  {
+    "country": "Slovakia",
+    "confirmedcases": 336,
+    "newcases": 41,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "confirmedcases": 325,
+    "newcases": 56,
+    "death": 6,
+    "newdeath": 0
+  },
+  {
+    "country": "Turkmenistan",
+    "confirmedcases": 0,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Tajikistan",
+    "confirmedcases": 0,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Kazakhstan",
+    "confirmedcases": 294,
+    "newcases": 29,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Republic of Moldova",
+    "confirmedcases": 263,
+    "newcases": 32,
+    "death": 2,
+    "newdeath": 0
+  },
+  {
+    "country": "North Macedonia",
+    "confirmedcases": 259,
+    "newcases": 18,
+    "death": 6,
+    "newdeath": 2
+  },
+  {
+    "country": "San Marino",
+    "confirmedcases": 229,
+    "newcases": 1,
+    "death": 24,
+    "newdeath": 2
+  },
+  {
+    "country": "Albania",
+    "confirmedcases": 223,
+    "newcases": 11,
+    "death": 10,
+    "newdeath": 0
+  },
+  {
+    "country": "Cyprus",
+    "confirmedcases": 214,
+    "newcases": 35,
+    "death": 6,
+    "newdeath": 1
+  },
+  {
+    "country": "Azerbaijan",
+    "confirmedcases": 190,
+    "newcases": 26,
+    "death": 4,
+    "newdeath": 0
+  },
+  {
+    "country": "Malta",
+    "confirmedcases": 151,
+    "newcases": 12,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Uzbekistan",
+    "confirmedcases": 145,
+    "newcases": 12,
+    "death": 2,
+    "newdeath": 0
+  },
+  {
+    "country": "Georgia",
+    "confirmedcases": 98,
+    "newcases": 8,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Belarus",
+    "confirmedcases": 152,
+    "newcases": 58,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Montenegro",
+    "confirmedcases": 85,
+    "newcases": 3,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Kyrgyzstan",
+    "confirmedcases": 84,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Liechtenstein",
+    "confirmedcases": 62,
+    "newcases": 1,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Monaco",
+    "confirmedcases": 46,
+    "newcases": 27,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Holy See",
+    "confirmedcases": 6,
+    "newcases": 2,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Faroe Islands",
+    "confirmedcases": 159,
+    "newcases": 4,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Kosovo",
+    "confirmedcases": 94,
+    "newcases": 3,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Gibraltar",
+    "confirmedcases": 65,
+    "newcases": 9,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Jersey",
+    "confirmedcases": 63,
+    "newcases": 2,
+    "death": 2,
+    "newdeath": 1
+  },
+  {
+    "country": "Isle of Man",
+    "confirmedcases": 42,
+    "newcases": 10,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Guernsey",
+    "confirmedcases": 39,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Greenland",
+    "confirmedcases": 10,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Thailand",
+    "confirmedcases": 1524,
+    "newcases": 136,
+    "death": 9,
+    "newdeath": 2
+  },
+  {
+    "country": "Indonesia",
+    "confirmedcases": 1285,
+    "newcases": 130,
+    "death": 114,
+    "newdeath": 12
+  },
+  {
+    "country": "India",
+    "confirmedcases": 1071,
+    "newcases": 92,
+    "death": 29,
+    "newdeath": 4
+  },
+  {
+    "country": "Sri Lanka",
+    "confirmedcases": 120,
+    "newcases": 14,
+    "death": 1,
+    "newdeath": 1
+  },
+  {
+    "country": "Bangladesh",
+    "confirmedcases": 49,
+    "newcases": 1,
+    "death": 5,
+    "newdeath": 0
+  },
+  {
+    "country": "Maldives",
+    "confirmedcases": 17,
+    "newcases": 1,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Myanmar",
+    "confirmedcases": 8,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Nepal",
+    "confirmedcases": 5,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Bhutan",
+    "confirmedcases": 4,
+    "newcases": 1,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Timor-Leste",
+    "confirmedcases": 1,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Iran (Islamic Republic of)",
+    "confirmedcases": 38309,
+    "newcases": 2901,
+    "death": 2640,
+    "newdeath": 123
+  },
+  {
+    "country": "Pakistan",
+    "confirmedcases": 1625,
+    "newcases": 99,
+    "death": 18,
+    "newdeath": 5
+  },
+  {
+    "country": "Saudi Arabia",
+    "confirmedcases": 1299,
+    "newcases": 96,
+    "death": 8,
+    "newdeath": 4
+  },
+  {
+    "country": "Qatar",
+    "confirmedcases": 634,
+    "newcases": 44,
+    "death": 2,
+    "newdeath": 1
+  },
+  {
+    "country": "Egypt",
+    "confirmedcases": 609,
+    "newcases": 33,
+    "death": 40,
+    "newdeath": 4
+  },
+  {
+    "country": "United Arab Emirates",
+    "confirmedcases": 570,
+    "newcases": 102,
+    "death": 3,
+    "newdeath": 1
+  },
+  {
+    "country": "Iraq",
+    "confirmedcases": 547,
+    "newcases": 41,
+    "death": 42,
+    "newdeath": 0
+  },
+  {
+    "country": "Morocco",
+    "confirmedcases": 516,
+    "newcases": 79,
+    "death": 27,
+    "newdeath": 1
+  },
+  {
+    "country": "Bahrain",
+    "confirmedcases": 515,
+    "newcases": 39,
+    "death": 4,
+    "newdeath": 0
+  },
+  {
+    "country": "Lebanon",
+    "confirmedcases": 438,
+    "newcases": 26,
+    "death": 10,
+    "newdeath": 2
+  },
+  {
+    "country": "Tunisia",
+    "confirmedcases": 312,
+    "newcases": 34,
+    "death": 8,
+    "newdeath": 0
+  },
+  {
+    "country": "Jordan",
+    "confirmedcases": 259,
+    "newcases": 13,
+    "death": 3,
+    "newdeath": 2
+  },
+  {
+    "country": "Kuwait",
+    "confirmedcases": 255,
+    "newcases": 20,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Oman",
+    "confirmedcases": 167,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Afghanistan",
+    "confirmedcases": 114,
+    "newcases": 0,
+    "death": 4,
+    "newdeath": 0
+  },
+  {
+    "country": "Djibouti",
+    "confirmedcases": 19,
+    "newcases": 4,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Syrian Arab Republic",
+    "confirmedcases": 9,
+    "newcases": 4,
+    "death": 1,
+    "newdeath": 1
+  },
+  {
+    "country": "Libya",
+    "confirmedcases": 8,
+    "newcases": 5,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Sudan",
+    "confirmedcases": 6,
+    "newcases": 1,
+    "death": 2,
+    "newdeath": 1
+  },
+  {
+    "country": "Somalia",
+    "confirmedcases": 3,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "United States of America",
+    "confirmedcases": 122653,
+    "newcases": 19332,
+    "death": 2112,
+    "newdeath": 444
+  },
+  {
+    "country": "Canada",
+    "confirmedcases": 5655,
+    "newcases": 898,
+    "death": 61,
+    "newdeath": 6
+  },
+  {
+    "country": "Brazil",
+    "confirmedcases": 3904,
+    "newcases": 487,
+    "death": 114,
+    "newdeath": 22
+  },
+  {
+    "country": "Chile",
+    "confirmedcases": 1909,
+    "newcases": 0,
+    "death": 6,
+    "newdeath": 0
+  },
+  {
+    "country": "Ecuador",
+    "confirmedcases": 1835,
+    "newcases": 12,
+    "death": 48,
+    "newdeath": 0
+  },
+  {
+    "country": "Panama",
+    "confirmedcases": 901,
+    "newcases": 115,
+    "death": 17,
+    "newdeath": 3
+  },
+  {
+    "country": "Mexico",
+    "confirmedcases": 848,
+    "newcases": 131,
+    "death": 16,
+    "newdeath": 4
+  },
+  {
+    "country": "Argentina",
+    "confirmedcases": 745,
+    "newcases": 55,
+    "death": 19,
+    "newdeath": 2
+  },
+  {
+    "country": "Peru",
+    "confirmedcases": 671,
+    "newcases": 36,
+    "death": 11,
+    "newdeath": 0
+  },
+  {
+    "country": "Colombia",
+    "confirmedcases": 608,
+    "newcases": 69,
+    "death": 6,
+    "newdeath": 0
+  },
+  {
+    "country": "Dominican Republic",
+    "confirmedcases": 581,
+    "newcases": 0,
+    "death": 20,
+    "newdeath": 0
+  },
+  {
+    "country": "Uruguay",
+    "confirmedcases": 303,
+    "newcases": 29,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Costa Rica",
+    "confirmedcases": 295,
+    "newcases": 32,
+    "death": 2,
+    "newdeath": 0
+  },
+  {
+    "country": "Cuba",
+    "confirmedcases": 119,
+    "newcases": 0,
+    "death": 3,
+    "newdeath": 0
+  },
+  {
+    "country": "Venezuela (Bolivarian Republic of)",
+    "confirmedcases": 113,
+    "newcases": 0,
+    "death": 2,
+    "newdeath": 0
+  },
+  {
+    "country": "Honduras",
+    "confirmedcases": 110,
+    "newcases": 43,
+    "death": 2,
+    "newdeath": 1
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "confirmedcases": 76,
+    "newcases": 2,
+    "death": 3,
+    "newdeath": 1
+  },
+  {
+    "country": "Bolivia (Plurinational State of)",
+    "confirmedcases": 74,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Paraguay",
+    "confirmedcases": 59,
+    "newcases": 3,
+    "death": 3,
+    "newdeath": 0
+  },
+  {
+    "country": "Guatemala",
+    "confirmedcases": 34,
+    "newcases": 2,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Jamaica",
+    "confirmedcases": 32,
+    "newcases": 2,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Barbados",
+    "confirmedcases": 26,
+    "newcases": 2,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "El Salvador",
+    "confirmedcases": 24,
+    "newcases": 5,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Haiti",
+    "confirmedcases": 15,
+    "newcases": 7,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Dominica",
+    "confirmedcases": 11,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Bahamas",
+    "confirmedcases": 10,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Suriname",
+    "confirmedcases": 8,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "confirmedcases": 7,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Grenada",
+    "confirmedcases": 7,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Guyana",
+    "confirmedcases": 5,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Nicaragua",
+    "confirmedcases": 4,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "confirmedcases": 4,
+    "newcases": 2,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Saint Lucia",
+    "confirmedcases": 4,
+    "newcases": 1,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Belize",
+    "confirmedcases": 2,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "confirmedcases": 1,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Martinique",
+    "confirmedcases": 105,
+    "newcases": 12,
+    "death": 2,
+    "newdeath": 1
+  },
+  {
+    "country": "Guadeloupe",
+    "confirmedcases": 96,
+    "newcases": 0,
+    "death": 2,
+    "newdeath": 0
+  },
+  {
+    "country": "Puerto Rico",
+    "confirmedcases": 64,
+    "newcases": 0,
+    "death": 2,
+    "newdeath": 0
+  },
+  {
+    "country": "Aruba",
+    "confirmedcases": 46,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "French Guiana",
+    "confirmedcases": 31,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Bermuda",
+    "confirmedcases": 22,
+    "newcases": 5,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "United States Virgin Islands",
+    "confirmedcases": 22,
+    "newcases": 5,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Cayman Islands",
+    "confirmedcases": 8,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Curaçao",
+    "confirmedcases": 7,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Saint Martin",
+    "confirmedcases": 6,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Montserrat",
+    "confirmedcases": 5,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Saint Barthélemy",
+    "confirmedcases": 5,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "confirmedcases": 4,
+    "newcases": 2,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Sint Maarten",
+    "confirmedcases": 3,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Anguilla",
+    "confirmedcases": 2,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "British Virgin Islands",
+    "confirmedcases": 2,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "South Africa",
+    "confirmedcases": 1280,
+    "newcases": 93,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Algeria",
+    "confirmedcases": 454,
+    "newcases": 45,
+    "death": 29,
+    "newdeath": 3
+  },
+  {
+    "country": "Burkina Faso",
+    "confirmedcases": 222,
+    "newcases": 76,
+    "death": 3,
+    "newdeath": 0
+  },
+  {
+    "country": "Cote d’Ivoire",
+    "confirmedcases": 165,
+    "newcases": 25,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Ghana",
+    "confirmedcases": 152,
+    "newcases": 15,
+    "death": 5,
+    "newdeath": 1
+  },
+  {
+    "country": "Senegal",
+    "confirmedcases": 142,
+    "newcases": 23,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Cameroon",
+    "confirmedcases": 113,
+    "newcases": 22,
+    "death": 2,
+    "newdeath": 0
+  },
+  {
+    "country": "Mauritius",
+    "confirmedcases": 102,
+    "newcases": 0,
+    "death": 2,
+    "newdeath": 0
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "confirmedcases": 81,
+    "newcases": 13,
+    "death": 8,
+    "newdeath": 2
+  },
+  {
+    "country": "Rwanda",
+    "confirmedcases": 70,
+    "newcases": 10,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Nigeria",
+    "confirmedcases": 65,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Madagascar",
+    "confirmedcases": 37,
+    "newcases": 11,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Uganda",
+    "confirmedcases": 33,
+    "newcases": 19,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Togo",
+    "confirmedcases": 28,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 1
+  },
+  {
+    "country": "Kenya",
+    "confirmedcases": 25,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Ethiopia",
+    "confirmedcases": 21,
+    "newcases": 5,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Niger",
+    "confirmedcases": 20,
+    "newcases": 10,
+    "death": 3,
+    "newdeath": 2
+  },
+  {
+    "country": "Congo",
+    "confirmedcases": 19,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Mali",
+    "confirmedcases": 18,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Guinea",
+    "confirmedcases": 16,
+    "newcases": 8,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Zambia",
+    "confirmedcases": 16,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "United Republic of Tanzania",
+    "confirmedcases": 14,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Tanzania Equatorial Guinea",
+    "confirmedcases": 13,
+    "newcases": 7,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Namibia",
+    "confirmedcases": 11,
+    "newcases": 3,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Eswatini",
+    "confirmedcases": 9,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Mozambique",
+    "confirmedcases": 8,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Seychelles",
+    "confirmedcases": 8,
+    "newcases": 1,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Gabon",
+    "confirmedcases": 7,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Benin",
+    "confirmedcases": 6,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Central African Republic",
+    "confirmedcases": 6,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Eritrea",
+    "confirmedcases": 6,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Cabo Verde",
+    "confirmedcases": 5,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Chad",
+    "confirmedcases": 5,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Mauritania",
+    "confirmedcases": 5,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Zimbabwe",
+    "confirmedcases": 5,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Gambia",
+    "confirmedcases": 3,
+    "newcases": 0,
+    "death": 1,
+    "newdeath": 0
+  },
+  {
+    "country": "Liberia",
+    "confirmedcases": 3,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Angola",
+    "confirmedcases": 2,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Guinea-Bissau",
+    "confirmedcases": 2,
+    "newcases": 0,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Réunion",
+    "confirmedcases": 207,
+    "newcases": 64,
+    "death": 0,
+    "newdeath": 0
+  },
+  {
+    "country": "Mayotte",
+    "confirmedcases": 82,
+    "newcases": 32,
+    "death": 0,
+    "newdeath": 0
+  }
+]
