@@ -102,6 +102,10 @@ footer {
   display: table-row;
 }
 
+.top-30 {
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 40.0rem) {
   body {
     width: 100%;
