@@ -3,10 +3,8 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("/service-worker.js");
   });
 }
-
 let el = document.getElementById("world");
 let globel = {};
-
 
 function worldShow(data) {
   document.getElementById("world_total").innerText = data.confirmedcase;
@@ -27,10 +25,9 @@ function colorData(dta) {
 }
 
 function cdoc(val, id) {
-  for(let i of globel.data.profiles)
-  {
-    if(val < i.value)
-    {
+  for (let i of globel.data.profiles) {
+    if (val < i.value) {
+      console.log(id);
       document.getElementById(id).style.fill = i.color;
       return;
     }
@@ -44,13 +41,11 @@ function findSpace(ev) {
   } else {
     y = ev.clientY - 200;
   }
-
   if (window.innerWidth - ev.clientX > ev.clientX) {
     x = ev.clientX + 20;
   } else {
     x = ev.clientX - 160;
   }
-
   return [x, y];
 }
 
@@ -94,28 +89,18 @@ function appendTdOk(data, elm, cond) {
 function tableData(dta) {
   for (let i of Object.keys(dta)) {
     let el = document.createElement("tr");
-
-    appendTd(i, el, false);
-
+    appendTd(globel.data.detached[i].country, el, false);
     appendTd(dta[i].confirmedcase, el, 999, dta[i].confirmedcase < 100);
-
     appendTd(dta[i].newcase, el, 10);
-
     let cond = (dta[i].recovered / dta[i].confirmedcase) * 100 > 30;
     appendTdOk(dta[i].recovered, el, cond);
-
     appendTd(dta[i].death, el, 10);
-
     appendTd(dta[i].newdeath, el, 3);
-
     appendTd(dta[i].confirmedcase - dta[i].death - dta[i].recovered, el, false);
-
     let chances = ((dta[i].recovered / dta[i].confirmedcase) * 100).toFixed(2);
     appendTdOk(isNaN(chances) ? 0 : chances, el, chances > 30);
-
     chances = ((dta[i].death / dta[i].confirmedcase) * 100).toFixed(2);
     appendTd(isNaN(chances) ? 0 : chances, el, 0.5);
-
     document.getElementById("table-body").appendChild(el);
   }
 }
@@ -125,7 +110,6 @@ function showData(ctry, data, ev) {
     return;
   }
   let sp = findSpace(ev);
-
   let cnt = document.getElementById("dta");
   cnt.style.visibility = "visible";
   cnt.style.top = sp[1] + "px";
@@ -141,27 +125,12 @@ function showData(ctry, data, ev) {
   new_cases.innerText = data.newcase;
   total_death.innerText = data.death;
   new_death.innerText = data.newdeath;
-
   let chances = ((data.death / data.confirmedcase) * 100).toFixed(2);
   chances_of_death.innerText = chances + "%";
-
   dataMark(5, data.newcase, new_cases);
   dataMark(10, data.death, total_death);
   dataMark(0.5, chances, chances_of_death);
 }
-
-window.onload = function() {
-  fetch("assets/data/world.json").then(doc => {
-    _ = doc.json().then(doc => {
-      document.getElementById("wait").style.display = "none";
-      let data = doc;
-      globel.data = data;
-      worldShow(data.total);
-      colorData(globel.data.detached);
-      tableData(globel.data.detached);
-    });
-  });
-};
 
 el.onmousemove = ev => {
   el = ev.toElement.id;
@@ -173,20 +142,17 @@ el.onmousemove = ev => {
     showData(data[el].country, data[el], ev);
   }
 };
-
-
 let searchbar = document.getElementById("searchbar");
-document.querySelector('div.table-data').onmouseenter = itshidden;
+document.querySelector("div.table-data").onmouseenter = itshidden;
 searchbar.onkeyup = function(ev) {
   let val = ev.target.value.toLowerCase();
-  itshidden()
-  let k = document.getElementById('table-body');
-  for(let el of k.children)
-  {
-    if(!el.children[0].innerText.toLowerCase().includes(val)){
-      el.classList = ["no-display"]
-    }else {
-      el.classList = ["ok-display"]
+  itshidden();
+  let k = document.getElementById("table-body");
+  for (let el of k.children) {
+    if (!el.children[0].innerText.toLowerCase().includes(val)) {
+      el.classList = ["no-display"];
+    } else {
+      el.classList = ["ok-display"];
     }
   }
 };
@@ -196,6 +162,5 @@ function itshidden() {
 }
 searchbar.onfocus = itshidden;
 searchbar.onmouseleave = itshidden;
-
 document.querySelector("div.header").onmouseenter = itshidden;
 document.querySelector("div.header").onclick = itshidden;
