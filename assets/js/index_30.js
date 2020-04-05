@@ -27,7 +27,6 @@ function colorData(dta) {
 function cdoc(val, id) {
   for (let i of globel.data.profiles) {
     if (val < i.value) {
-      console.log(id);
       document.getElementById(id).style.fill = i.color;
       return;
     }
