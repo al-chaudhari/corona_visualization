@@ -1,2 +1,3 @@
+Sitemap: http://coronavs.life/sitemap.xml
 User-agent: * 
 Disallow: 
